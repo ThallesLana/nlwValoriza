@@ -1,0 +1,27 @@
+// GET      => Buscar  uma informação
+// POST     => Inserir uma informação
+// PUT      => Alterar uma informação
+// DELETE   => Remover uma informação
+// PATCH    => Alterar uma informação especifica
+
+/*
+    Tipos de parâmetros
+    Routes Params => http://localhost:3000/produtos/78237178
+    Query  Params => http://localhost:3000/produtos?chave=valor&chave=valor
+    Body   Params => {
+        "name": "teclado",
+        "description": "mecanico",
+    }
+*/
+
+
+app.get("/test", (request, response) => {
+    // Request  => Entrando
+    // Response => Saindo
+    
+    return response.send("Olá NLW");
+});
+
+app.post("/test-post", (request, response) => {
+    return response.send("Olá NLW metodo POST");
+})
