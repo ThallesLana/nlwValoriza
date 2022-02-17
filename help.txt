@@ -25,3 +25,8 @@ app.get("/test", (request, response) => {
 app.post("/test-post", (request, response) => {
     return response.send("Olá NLW metodo POST");
 })
+
+
+// Entity (User) < - > ORM < - > BD
+
+// Entidade < - > ORM < - > BD (users)
