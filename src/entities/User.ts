@@ -10,7 +10,7 @@ class User {
 
     @Column()
     name: string;
-
+    
     @Column()
     email: string;
     
